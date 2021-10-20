@@ -1,0 +1,38 @@
+.buttonsBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 90px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+
+    text-align: center;
+    font-size: 18px;
+
+    color: #0c0c0b;
+    transition: 0.25s;
+    
+    &:hover {
+        box-shadow: inset 6.5em 0 0 0 #{adjust-hue(#8fc866, 45deg)};;
+    }
+}
+
+// .title {
+//     margin-left: 20px;
+//     font-size: 30px;
+// }
+
+// .statList {
+//     display: flex;
+//     flex-direction: column;
+//     margin-left: 20px;
+// }
+
+// .label {
+//     margin: 5px;
+//     font-size: 18px;
+// }
